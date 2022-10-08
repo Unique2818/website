@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>Anupam Portfolio</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+  
+
+<nav id="navbar-scroll" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">AnupamPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav d-flex w-100 justify-content-end me-4">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#scrolls1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#scrolls2">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#scrolls3">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#scrolls4">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- home page -->
+<div data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-root-margin="0px 0px -40%"
+  data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+  <div id="scrolls1" class="container container-about" style="height: 90vh;">
+    <div class="row h-100">
+      <div id="scrolls5" class="col-lg-6 col-sm-12 d-flex justify-content-center  flex-column">
+        <h1 data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000">Hi I am Anupam,
+          <br>
+         a CS student.
+        </h1>
+        <p data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000">Hey! My name is Anupam. I live in Nepal. Since
+          my childhood I loved to play with computers. I have knowledge in technologies like HTML, css, javascript, python, 
+          django, php, myql, git, C and some js framework. I have created many front-end projects and now currently doing
+          backend with Django.</p>
+        <a data-aos="slide-left" data-aos-duration="1000" data-aos-offset="0" class="btn-link w-50"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <button class="btn btn-success rounded-2 w-100">Download Resume</button>
+        </a>
+      </div>
+      <div data-aos="slide-down" data-aos-duration="1000" data-aos-offset="0"
+        class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+        <!-- <img src="../frontend/static/me.png" alt="" class="" height="300px" width="400px"> -->
+
+        <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="" class="" height="300px" width="400px">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent post -->
+  <div id="scrolls2" data-aos="zoom-in" class="container-fluid mt-3 recent"
+    style="background-color:#EDF7FA;height:91vh;">
+    <h5 class="navbar-nav-scroll nav text-muted d-flex align-items-end justify-content-center" style="height:10vh;">
+      Some blog post</h5>
+    <div class="row d-flex justify-content-center align-items-center ">
+      
+      <div class="col-lg-5 col-sm-12  bg-white m-3" data-aos="zoom-in">
+        <div class="card-body">
+          <p class="card-text h3">Django i love it</p>
+          <p><p>In this first Django article, we answer the question "What is Django?" and give you an overview of what makes …</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a class="btn btn-success mb-4 mt-2" href="blog-post/1">View</a>
+            </div>
+            <small class="text-muted">May 25, 2022</small>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-5 col-sm-12  bg-white m-3" data-aos="zoom-in">
+        <div class="card-body">
+          <p class="card-text h3">Plans to Re-enable the GitHub Integration</p>
+          <p><p>this is dummy blogs just to make page full :</p> <p>&nbsp;</p> <p>We know you are waiting for us to re-enable …</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a class="btn btn-success mb-4 mt-2" href="blog-post/2">View</a>
+            </div>
+            <small class="text-muted">May 25, 2022</small>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <a data-aos="zoom-in" data-aos-offset="50" class="w-100 h4 d-flex justify-content-center link-success mt-4"
+      href="/blog">
+      Read more blogs:
+    </a>
+  </div>
+
+  <!-- Featured works  -->
+  <div id="scrolls3" data-aos="zoom-in" class="overflow-hidden Featured">
+    <h5 class="text-muted d-flex align-items-center justify-content-center" style="height:10vh;">
+      Featured works</h5>
+
+    <div class="row d-flex justify-content-center w-100">
+      <div class="col-lg-2 col-sm-12 " data-aos="fade-up">
+        <!-- <img src="../frontend/static/insta.png" alt="" height="200px" width="200px"> -->
+
+
+        <img src="https://media0.giphy.com/media/rzMuFBKUhwlNSL5r1u/giphy.gif?cid=790b7611c2380ce284ea5ab753a151cc77e851a2a8da9add&rid=giphy.gif&ct=s" alt="" height="200px" width="200px">
+
+      </div>
+      <div class="col-lg-6 col-sm-12" data-aos="fade-up">
+        <h3>Insta Clone</h3>
+        <p>I created the insta clone with the django</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row d-flex justify-content-center w-100">
+      <div class="col-lg-2 col-sm-12" data-aos="fade-up">
+        <!-- <img src="../frontend/static/blog.png" alt="" height="200px" width="200px"> -->
+
+        <img src="https://www.dreamhost.com/blog/wp-content/uploads/2019/01/Blog-experts-opt-750x498.jpg" alt="" height="200px" width="200px">
+      </div>
+      <div class="col-lg-6 col-sm-12" data-aos="fade-up">
+        <h3>Blog</h3>
+        <p>I created the blog with the django</p>
+      </div>
+    </div>
+    <a data-aos="zoom-in" data-aos-offset="50" class="w-100 h4 d-flex justify-content-center link-success mt-4"
+      href="https://github.com/anupamthe99" target="_blank">
+      See more projects:
+    </a>
+  </div>
+  <!-- form -->
+  <div id="scrolls4" data-aos="zoom-in" class="container-fluid mt-3 recent"
+    style="background-color:#EDF7FA;height:90vh;">
+
+    <form class="d-flex flex-column justify-content-center p-5" method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="4698cMqN1TsBa629iiewTM9q1MI85GkScUOIIiIpAAzxhzNoFDlxy31eEDWkoWJU">
+      <h2 class="text-center mb-3">Contact Anupam</h2>
+      <div data-aos="zoom-in" class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name">
+      </div>
+      <div data-aos="zoom-in" class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject">
+      </div>
+      <div data-aos="zoom-in" class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email">
+      </div>
+      <!-- <div data-aos="zoom-in" class="mb-3">
+          <div class="g-recaptcha" data-sitekey=""></div>
+        </div> -->
+      <button data-aos="slide-right" data-aos-offset="100" type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+  <!-- Twitter -->
+  <h2 data-aos="slide-right" class="text-center text-success mt-5 h3">My twitter feed</h2>
+  <div class="d-flex  justify-content-center">
+    <a data-aos="zoom-in" class="twitter-timeline" data-width="600" data-height="700"
+      href="https://twitter.com/luckyklyist?ref_src=twsrc%5Etfw">Tweets by luckyklyist</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  </div>
+  <div class="w-100  d-flex justify-content-end position">
+    <a href="#scrolls5">
+      <img class="me-4" src="https://icon-library.com/images/arrow-up-icon-png/arrow-up-icon-png-17.jpg" alt="" height="30">
+    </a>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<hr>
+<div class="container" style="height:15vh;" data-aos-offset="20" data-aos="zoom-in">
+  <div class="d-flex mt-5 d-flex  w-100 justify-content-center  ">
+    <h2> <span class="me-2"><i class="bi bi-facebook"></i></span></h2>
+    <h2> <span class="me-2"><i class="bi bi-instagram"></i></span></h2>
+    <h2> <span class="me-2"><i class="bi bi-twitter"></i></span></h2>
+    <h2> <span class="me-2"><i class="bi bi-github"></i></span></h2>
+  </div>
+  <div class="row d-flex w-100 justify-content-center ">
+    Copyright ©2022 All rights reserved
+  </div>
+</div>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    {
+      offset: 200,
+      delay: 0,
+      duration: 900,
+    }
+  );
+</script>
+</body>
+
+</html>
