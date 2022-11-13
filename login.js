@@ -6,7 +6,7 @@ function validate(){
         return false;
     }
     else{
-        alert("Please enter radar member login")
+        alert("Enter radar member login id")
     }
 }
 // Welcome to github master. Password id hernuhos.
